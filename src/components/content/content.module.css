@@ -24,20 +24,20 @@
 .bar {
     position: relative;
     height: 5px;
-    width: 20vw;
+    width: min(20vw,70px);
     background-color: black;
     border-radius: 5px;
     transition: all 0.3s;
 }
 
 ._L {
-    left: -30vw;
+    left: max(-30vw,-120px);
 }
 ._M {
     left: 0;
 }
 ._R {
-    left: 30vw;
+    left: min(30vw,120px);
 }
 
 .icon {

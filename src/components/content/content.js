@@ -30,7 +30,7 @@ export default function Content() {
       </div>
       <div className={styles.bar+" "+arr[a]}></div>
       <div className="content"></div>
-      <Content/>
+      <Content1/>
     </>
   )
 }
