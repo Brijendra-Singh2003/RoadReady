@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import "./Navbar.css"
+import Image from 'next/image';
 
 export default function Navbar() {
 
@@ -14,7 +15,8 @@ export default function Navbar() {
     return (
         <>
             <div className='nav'>
-                <div className="logo">RR</div>
+                {/* <div className="logo">RoadReady</div> */}
+                <div className="logo"><Image src="/assets/Road.png" height={100} width={400} /></div>
                 <div className="right">
 
                     <div className="login">Log In</div>
