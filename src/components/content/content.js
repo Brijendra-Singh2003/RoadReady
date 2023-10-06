@@ -11,11 +11,12 @@ import Image from "next/image";
 
 export default function Content() {
   const arr = [styles._L,styles._M, styles._R];
+  const bgs = ["/assets/fuelBG.jpg", ]
   const [a, setA] = useState(0);
 
   return (
     <>
-      <Image src="/assets/background.jpg" height={1440} width={2560} className={styles.bg} />
+      <Image src={bgs[a]} height={1440} width={2560} className={styles.bg} />
       <div className={styles.wraper}>
         <button onClick={()=>setA(0)} className={styles.options }>
           <BsFillFuelPumpFill className={styles.icon + " " + styles.fuellogo} />
