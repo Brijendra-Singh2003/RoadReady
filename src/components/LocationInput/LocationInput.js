@@ -24,7 +24,7 @@ export default function LocationInput() {
   return (
     <label htmlFor="location" className={styles.location}>
         <BiCurrentLocation className={styles.pin} />
-        <input id="location" type="text" placeholder="search location" value={location.latitude} className={styles.locInput} />
+        <input id="location" type="text" placeholder="search location" value={location?.latitude} className={styles.locInput} />
     </label>
   )
 }
