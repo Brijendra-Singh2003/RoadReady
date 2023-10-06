@@ -24,6 +24,7 @@
 .bar {
     position: relative;
     height: 5px;
+    top: -10px;
     width: min(20vw,70px);
     background-color: black;
     border-radius: 5px;

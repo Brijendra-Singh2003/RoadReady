@@ -15,7 +15,7 @@ export default function Content() {
   return (
     <>
       <div className={styles.wraper}>
-        <button onClick={()=>setA(0)} className={styles.options}>
+        <button onClick={()=>setA(0)} className={styles.options }>
           <BsFillFuelPumpFill className={styles.icon + " " + styles.fuellogo} />
           <h2>FUEL</h2>
         </button>
