@@ -29,8 +29,3 @@ export default async function page() {
     </main>
   )
 }
-
-export const metadata = {
-  title: "Sign In - CSE Bootcamp 2.0",
-  description: "sign in to cse bootcamp 2.0",
-};

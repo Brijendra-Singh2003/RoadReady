@@ -7,6 +7,8 @@ import { FaHandsHelping } from "react-icons/fa";
 import Content1 from "./content1/content1";
 import { useState } from "react";
 import Image from "next/image";
+import Content2 from "./content2/content2";
+import Content3 from "./content3/content3";
 
 
 export default function Content() {
@@ -34,7 +36,10 @@ export default function Content() {
         </button>
       </div>
       <div className={styles.bar+" "+arr[a]}></div>
-      {a==0 && <Content1/>}
+      {a===0 && <Content1/>}
+      {a===1 && <Content2/>}
+      {a===2 && <Content3/>}
+
     </>
   )
 }

@@ -17,10 +17,10 @@ export default function Navbar() {
         <>
             <div className='nav'>
                 {/* <div className="logo">RoadReady</div> */}
-                <Link href="/" className="logo"><Image src="/assets/Road.png" height={100} width={400} /></Link>
+                <div className="logo"><Image src="/assets/Road.png" height={100} width={400} /></div>
                 <div className="right">
 
-                    <div className="login">Log In</div>
+                    <Link href="/api/auth/signin" className="login">Log In</Link>
                     <Link href="/api/auth/signin" className="login">Sign In</Link>
         
                     {isOpen ?
