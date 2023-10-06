@@ -9,6 +9,7 @@
 }
 
 .live {
+    cursor: pointer;
     margin: 1vh;
     /* border: 2px solid blue; */
     width: min(270px,72vw);
