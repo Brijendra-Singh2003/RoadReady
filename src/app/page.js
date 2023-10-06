@@ -11,9 +11,6 @@ export default function Home() {
         <main className={styles.main}>
             <LocationInput />
             <Content />
-            
-            <div>
-            </div>
         </main>
     );
 }

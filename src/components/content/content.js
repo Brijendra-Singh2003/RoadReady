@@ -25,7 +25,8 @@ export default function Content() {
           <h2>REPAIR</h2>
         </button>
       </div>
-      <Content1/>
+      <div className={styles.bar+" _bar"}></div>
+      <div className="content"></div>
     </>
   )
 }
