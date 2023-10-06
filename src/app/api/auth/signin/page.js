@@ -16,10 +16,15 @@ export default async function page() {
   }
 
   return (
-    <main>
-    <div className="container">
-        signin page
-    </div>
+    <main className='signin'>
+      <div className="User _card">
+          <h1>User Login</h1>
+          <button>Login</button>
+      </div>
+      <div className="mechanic _card">
+          <h1>Mechanic Login</h1>
+          <button>Login</button>
+      </div>
     </main>
   )
 }
