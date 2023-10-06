@@ -23,9 +23,6 @@ export default function Home() {
                     <h2>REPAIR</h2>
                 </button>
             </div>
-            <div>
-                
-            </div>
         </main>
     );
 }
