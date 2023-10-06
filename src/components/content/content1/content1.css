@@ -1,0 +1,39 @@
+.content{
+    margin-top: 10px;
+    width: max(60vw,200px);
+    height: max(60vh , 400px);
+    background-color: rgb(255, 255, 255);
+    border: 4px solid black;
+    border-radius: 2em;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+.content-child{
+    margin: 3px 5px;
+    background-color: rgb(138, 133, 133);
+    height: 50px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.content-child-name{
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+
+.content-child-address{
+    margin-top: 3px;
+    padding: 0px 15px;
+}
+
+.content-child-distance{
+    padding-left: 10px;
+}
+
+.content-child-time{
+    padding-left: 20px;
+}

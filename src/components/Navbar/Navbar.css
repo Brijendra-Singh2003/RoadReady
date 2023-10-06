@@ -81,3 +81,15 @@ a {
         display: none;
     }
 }
+
+.login{
+    padding: 7px;
+}
+
+
+.login:hover{
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+
+}

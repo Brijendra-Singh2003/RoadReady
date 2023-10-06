@@ -4,6 +4,7 @@ import { BsFillFuelPumpFill } from "react-icons/bs";
 import styles from "./content.module.css"
 import { MdCarRepair } from "react-icons/md";
 import { FaHandsHelping } from "react-icons/fa";
+import Content1 from "./content1/content1";
 
 export default function Content() {
   const a = 5;
@@ -24,10 +25,7 @@ export default function Content() {
           <h2>REPAIR</h2>
         </button>
       </div>
-      <div className="content">
-
-
-      </div>
+      <Content1/>
     </>
   )
 }
