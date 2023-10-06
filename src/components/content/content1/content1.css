@@ -8,6 +8,7 @@
     border: 4px solid black;
     border-radius: 2em;
     padding: 15px;  
+    /* flex-wrap:wrap-reverse; */
 }
 
 
@@ -56,13 +57,26 @@
 }
 
 .content-image{
-        position: absolute;
-        right: -25%;
-        top:5%;
+
+        margin: auto;
+        
+        height: 90%;
+        width: calc(0.5*height);
+        border: 2px solid white;
+        border-radius: 10px;
 }
 
-.image{
-    border: 2px solid rgb(134, 132, 132);
-    border-radius: 2em;
-    width: 50%;
+@media screen and (max-width: 930px){
+    .main{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+        height: 50%;
+    }
+    .content-image {
+        align-items: center;
+        width: 100%;
+        height: 50%;
+    }
 }
