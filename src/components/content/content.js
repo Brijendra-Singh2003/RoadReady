@@ -11,12 +11,13 @@ import Image from "next/image";
 
 export default function Content() {
   const arr = [styles._L,styles._M, styles._R];
-  const bgs = ["/assets/fuelBG.jpg", ]
+  const bgs = ["/assets/fuelBG.jpg", "/assets/repairBG.jpg"]
   const [a, setA] = useState(0);
 
   return (
     <>
-      <Image src={bgs[a]} height={1440} width={2560} className={styles.bg} />
+      {a==0 && <Image src="/assets/fuelBG.jpg" height={1440} width={2560} className={styles.bg} />}
+      {a==1 && <Image src="/assets/repairBG.jpg" height={1440} width={2560} className={styles.bg} />}
       <div className={styles.wraper}>
         <button onClick={()=>setA(0)} className={styles.options }>
           <BsFillFuelPumpFill className={styles.icon + " " + styles.fuellogo} />
@@ -28,7 +29,7 @@ export default function Content() {
         </button>
         <button onClick={()=>setA(2)} className={styles.options}>
           <FaHandsHelping className={styles.icon} />
-          <h2>REPAIR</h2>
+          <h2>SUPPORT</h2>
         </button>
       </div>
       <div className={styles.bar+" "+arr[a]}></div>
