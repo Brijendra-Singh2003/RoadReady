@@ -18,10 +18,11 @@ export default function Content1() {
                             <>
                                 <div className="content-child">
                                     <div className="content-child-name">{e[0]}</div>
-                                    <span className="content-child-icon"></span>
-                                    <span className="content-child-address"><MdOutlineLocationOn />{e[1]}</span>
-                                    <span className="content-child-distance">{e[2]}</span>
-                                    <span className="content-child-time">{e[3]}</span>
+                                    <div className="content-child-detail">
+                                    <div className="content-child-address"><MdOutlineLocationOn />{e[1]}</div>
+                                    <div className="content-child-distance">{e[2]}</div>
+                                    <div className="content-child-time">{e[3]}</div>
+                                    </div>
                                 </div>
                             </>
                         )
