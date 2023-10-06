@@ -2,11 +2,10 @@
     width: min(270px,72vw);
     height: 40px;
     border-radius: 5px;
-    border: none;
+    /* border: none; */
     outline: none;
     font-size: 2.5vh;
     text-indent: 1vh;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
 }
 
 .live {
@@ -21,7 +20,6 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
 }
 
 .location {

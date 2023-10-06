@@ -17,7 +17,7 @@ export default function Navbar() {
         <>
             <div className='nav'>
                 {/* <div className="logo">RoadReady</div> */}
-                <Link href="/" className="logo"><Image src="/assets/Road.png" height={100} width={400} /></Link>
+                <div className="logo"><Image src="/assets/Road.png" height={100} width={400} /></div>
                 <div className="right">
 
                     <Link href="/api/auth/signin" className="login">Log In</Link>
