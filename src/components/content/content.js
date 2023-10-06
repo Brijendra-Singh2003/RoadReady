@@ -4,6 +4,7 @@ import { BsFillFuelPumpFill } from "react-icons/bs";
 import styles from "./content.module.css"
 import { MdCarRepair } from "react-icons/md";
 import { FaHandsHelping } from "react-icons/fa";
+import Content1 from "./content1/content1";
 import { useState } from "react";
 
 
@@ -29,6 +30,7 @@ export default function Content() {
       </div>
       <div className={styles.bar+" "+arr[a]}></div>
       <div className="content"></div>
+      <Content/>
     </>
   )
 }
