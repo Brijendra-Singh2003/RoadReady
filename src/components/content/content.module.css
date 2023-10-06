@@ -54,9 +54,9 @@
 
 .bg {
     position: absolute;
-    height: 94vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-    top: 6vh;
+    top: 0;
     z-index: -1;
 }
