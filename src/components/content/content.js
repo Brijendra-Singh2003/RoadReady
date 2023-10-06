@@ -26,8 +26,7 @@ export default function Content() {
         </button>
       </div>
       <div className={styles.bar+" _bar"}></div>
-      <div className="content"></div>
-      <Content/>
+      <Content1/>
     </>
   )
 }

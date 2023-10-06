@@ -7,7 +7,7 @@ import "./content1.css"
 import React from 'react'
 
 export default function Content1() {
-    var myarray= [["Vasundara Fuel station","Bhubaneswar","5 km","15 min"],["Reliance Oil","Cuttack","15 km","37 min"]];
+    var myarray= [["Vasundara Fuel station","Bhubaneswar","5 km","15 min"],["Reliance Oil","Cuttack","15 km","37 min"],["Vasundara Fuel station","Bhubaneswar","5 km","15 min"],["Reliance Oil","Cuttack","15 km","37 min"],["Vasundara Fuel station","Bhubaneswar","5 km","15 min"],["Reliance Oil","Cuttack","15 km","37 min"],["Vasundara Fuel station","Bhubaneswar","5 km","15 min"],["Reliance Oil","Cuttack","15 km","37 min"],["Vasundara Fuel station","Bhubaneswar","5 km","15 min"],["Reliance Oil","Cuttack","15 km","37 min"],["Vasundara Fuel station","Bhubaneswar","5 km","15 min"],["Reliance Oil","Cuttack","15 km","37 min"],["Vasundara Fuel station","Bhubaneswar","5 km","15 min"],["Reliance Oil","Cuttack","15 km","37 min"]];
   return (
     <div className="content">
         {
@@ -24,8 +24,9 @@ export default function Content1() {
                     </>
                 )
             })
-
         }
-      </div>
+        <div className="content-image">
+        <img className="image" src="/assets/map.jpg" alt="404" /></div>
+        </div>
   )
 }
