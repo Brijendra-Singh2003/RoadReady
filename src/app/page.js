@@ -2,11 +2,13 @@ import styles from "./page.module.css";
 import { BsFillFuelPumpFill } from "react-icons/bs";
 import { MdCarRepair, MdLocationPin } from "react-icons/md"
 import { FaHandsHelping } from "react-icons/fa"
+import LocationInput from "@/components/LocationInput/LocationInput";
 // import {  } from "react-icons"
 
 export default function Home() {
     return (
-        <main>
+        <main className={styles.main}>
+            <LocationInput/>
             <div className={styles.wraper}>
                 <button className={styles.options}>
                     <BsFillFuelPumpFill className={styles.icon+" "+styles.fuellogo} />
@@ -22,10 +24,7 @@ export default function Home() {
                 </button>
             </div>
             <div>
-                <label htmlFor="location" className={styles.pin}>
-                    <MdLocationPin />
-                    <input id="location" type="text" className={styles.locInput} />
-                </label>
+                
             </div>
         </main>
     );

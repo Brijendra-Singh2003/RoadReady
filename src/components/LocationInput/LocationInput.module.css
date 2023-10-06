@@ -1,0 +1,24 @@
+
+.locInput {
+    width: min(270px,72vw);
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 2.5vh;
+    text-indent: 1vh;
+}
+
+.location {
+    width: min(300px,80vw);
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    /* width: min(90vw,300px); */
+    border: 1px solid black;
+}
+
+.pin {
+    height: 4vh;
+    width: 5vh;
+}
