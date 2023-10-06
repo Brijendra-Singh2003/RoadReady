@@ -5,6 +5,7 @@
 
 body {
     /* background-color: rgb(240, 240, 240); */
+    background-image: url("/assets/background.jpg");
     width: 100vw;
     /* overflow: hidden; */
 }
