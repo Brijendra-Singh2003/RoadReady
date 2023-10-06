@@ -25,7 +25,7 @@ export default function LocationInput() {
     }
   return (
     <label htmlFor="location" className={styles.location}>
-        <input id="location" type="text" placeholder="search location" value={location.latitude} className={styles.locInput} />
+        <input id="location" type="text" placeholder="search location" className={styles.locInput} />
         <div onClick={getLocation} className={styles.live}>
             <BiCurrentLocation className={styles.pin} />
             <span>Your Location</span>

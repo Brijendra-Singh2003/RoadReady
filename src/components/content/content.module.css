@@ -25,7 +25,7 @@
     position: relative;
     height: 5px;
     top: -10px;
-    width: min(30vw,100px);
+    width: min(20vw,70px);
     margin-top: 1vh;
     background-color: white;
     border: 1px solid black;
@@ -34,13 +34,13 @@
 }
 
 ._L {
-    left: max(-30vw,-120px);
+    left: max(-33vw,-120px);
 }
 ._M {
     left: 0;
 }
 ._R {
-    left: min(30vw,120px);
+    left: min(33vw,120px);
 }
 
 .icon {
