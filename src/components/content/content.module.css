@@ -6,8 +6,6 @@
     border-radius: 2em;
 }
 
-
-
 .wraper {
     display: flex;
     align-items: center;
@@ -28,6 +26,25 @@
     /* border-bottom: 6px solid black; */
     /* box-shadow: 0 5px 15px rgba(0,0,0,0.25); */
     border-radius: 10%;
+}
+
+.bar {
+    position: relative;
+    height: 5px;
+    width: 20vw;
+    background-color: black;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+._L {
+    left: -30vw;
+}
+._M {
+    left: 0;
+}
+._R {
+    left: 30vw;
 }
 
 .icon {
