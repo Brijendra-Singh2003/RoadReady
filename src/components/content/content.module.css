@@ -25,7 +25,7 @@
     position: relative;
     height: 5px;
     top: -10px;
-    width: min(20vw,70px);
+    width: min(30vw,100px);
     margin-top: 1vh;
     background-color: white;
     border: 1px solid black;
