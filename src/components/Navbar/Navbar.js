@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Navbar() {
 
@@ -20,7 +21,7 @@ export default function Navbar() {
                 <div className="right">
 
                     <div className="login">Log In</div>
-                    <div className="login">Sign In</div>
+                    <Link href="/api/auth/signin" className="login">Sign In</Link>
         
                     {isOpen ?
                         <>

@@ -10,7 +10,7 @@
 
 .live {
     margin: 1vh;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: min(270px,72vw);
     height: 40px;
     border-radius: 5px;
@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: blue;
+    /* color: blue; */
 }
 
 .location {

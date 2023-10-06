@@ -26,7 +26,9 @@
     height: 5px;
     top: -10px;
     width: min(20vw,70px);
-    background-color: black;
+    margin-top: 1vh;
+    background-color: white;
+    border: 1px solid black;
     border-radius: 5px;
     transition: all 0.3s;
 }
@@ -48,4 +50,13 @@
 
 .fuellogo {
     transform: translateX(11%);
+}
+
+.bg {
+    position: absolute;
+    height: 94vh;
+    width: 100vw;
+    object-fit: cover;
+    top: 6vh;
+    z-index: -1;
 }
