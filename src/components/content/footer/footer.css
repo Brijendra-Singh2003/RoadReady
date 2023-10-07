@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 40px 0;
+    color: white;
+    background: black;
+    box-sizing: border-box;
+}
+
+footer li {
+    float: left;
+    padding: 0 10px;
+    list-style: none;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    float: right;
+}

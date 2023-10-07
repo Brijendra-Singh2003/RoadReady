@@ -7,7 +7,7 @@ import { FaHandsHelping } from "react-icons/fa";
 import Content1 from "./content1/content1";
 import { useState } from "react";
 import Image from "next/image";
-import Content2 from "./content2/content2";
+import Content2 from "./content1/content2";
 import Content3 from "./content3/content3";
 
 
