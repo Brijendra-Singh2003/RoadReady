@@ -22,17 +22,26 @@
 }
 
 ._card h1 {
+    font-size: 4.5vh;
     margin: 2vh 0;
     text-align: center;
 }
 
 ._card button {
-    background-color: greenyellow;
+    font-size: 3vh;
+    color: white;
+    background-color: rgb(72, 73, 71);
     border: none;
     height: 8vh;
     width: 16vh;
     margin: 5vh 0;
     border-radius: 1vh;
+    cursor: pointer;
+}
+
+._card button:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
 }
 
 .imgc {
