@@ -5,6 +5,7 @@ import { options } from '../[...nextauth]/options';
 import { redirect } from 'next/navigation';
 import {Sora} from 'next/font/google'
 import Button from './Button';
+import Image from 'next/image';
 
 const lilitaOne=Sora({ subsets: ['latin'], weight: "800" });
 
@@ -18,12 +19,18 @@ export default async function page() {
 
   return (
     <main className='signin'>
-      <div className="User _card">
+      <div className="User _card relative">
           <h1>User Login</h1>
+          <div className='imgc'>
+            <Image className='limg' src="/assets/usr.png" height={400} width={400} />
+          </div>
           <Button>Login</Button>
       </div>
       <div className="mechanic _card">
           <h1>Mechanic Login</h1>
+          <div className='imgc'>
+            <Image className='limg' src="/assets/mech.png" height={400} width={400} />
+          </div>
           <Button>Login</Button>
       </div>
     </main>

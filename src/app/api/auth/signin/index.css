@@ -14,7 +14,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* margin: 10vh; */
     background-color: rgb(255, 255, 255);
     border-radius: 1vh;
     height: 60vh;
@@ -36,8 +35,13 @@
     border-radius: 1vh;
 }
 
-/* .User {
-    background-color: aqua;
-    height: 60vh;
-    width: 25vw;
-} */
+.imgc {
+    height: 40%;
+    width: 50%;
+}
+
+.imgc img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

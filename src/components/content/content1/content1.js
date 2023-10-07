@@ -2,9 +2,6 @@
 
 import { MdOutlineLocationOn } from "react-icons/md";
 import "./content1.css"
-
-
-
 import React from 'react'
 
 export default function Content1() {
