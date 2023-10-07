@@ -2,13 +2,12 @@
     display: flex;
     position: relative;
     flex-direction: row;
-    width: max(60vw,200px);
+    width: max(80vw,110vh);
     height: max(60vh , 400px);
     background-color: rgba(0, 0, 0, 0.755);
     border: 0.5px solid white;
     border-radius: 2em;
-    padding: 15px;  
-    
+    padding: 15px;
 }
 
 
