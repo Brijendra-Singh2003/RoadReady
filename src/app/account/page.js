@@ -6,20 +6,15 @@ import { useContext, useState } from 'react';
 import { UserContext } from "@/context/userContext";
 import Form from "@/components/form/form";
 
-export default function page() {
-    const [edit, setEdit] = useState(false);
+export default function Page() {
     const {user} = useContext(UserContext);
 
     if(!user) {
         return <main className={styles.main}>
             <div className={styles.container}>
-                <h1 className=" text-white">PLEASE LOGIN</h1>
+                <h1 className=" text-white">LOGIN TO VIEW THIS PAGE</h1>
             </div>
         </main>
-    }
-
-    function toggle() {
-        setEdit(prev=>!prev);
     }
 
     return (
