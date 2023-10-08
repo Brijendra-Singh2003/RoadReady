@@ -16,8 +16,7 @@ export default function Content() {
   const bgs = ["/assets/fuelBG.jpg", "/assets/repairBG.jpg"]
   const [a, setA] = useState(0);
   const style = {
-    color: "white",
-    backgroundColor: "black"
+    color: "black"
   }
 
   return (

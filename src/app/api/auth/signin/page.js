@@ -24,14 +24,14 @@ export default async function page() {
           <div className='imgc'>
             <Image className='limg' src="/assets/usr.png" height={400} width={400} />
           </div>
-          <Button>Login</Button>
+          <Button>Sign In</Button>
       </div>
       <div className="mechanic _card">
           <h1>Mechanic</h1>
           <div className='imgc'>
             <Image className='limg' src="/assets/mech.png" height={400} width={400} />
           </div>
-          <Button>Login</Button>
+          <Button>Sign In</Button>
       </div>
     </main>
   )

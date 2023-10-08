@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import Image from 'next/image';
 import Link from 'next/link';
-import { useSession, SessionProvider } from 'next-auth/react';
+import { useSession, SessionProvider, signIn } from 'next-auth/react';
 import { options } from '@/app/api/auth/[...nextauth]/options';
 import { useContext } from 'react';
 import { UserContext } from '@/context/userContext';
@@ -32,9 +32,12 @@ function Page() {
 
                 {
                     user ? (
-                        <button onClick={()=>signOut('google')}>Log Out</button>
+                        <a className="login" onClick={()=>signOut('google')}>Log Out</a>
                     ) : (
-                        <Link href="/api/auth/signin" className="login">Log In</Link>
+                    <>
+                        <a className="login" onClick={()=>signIn('google')}>Log In</a>
+                        <Link href="/api/auth/signin" className="login">Sign Up</Link>
+                    </>
                     )
                 }
     
@@ -45,9 +48,9 @@ function Page() {
                         <div className="backdrop" onClick={toggle}></div>
 
                         <div className='dropdown' onClick={toggle}>
-                            <li><a href='#'>Home</a></li>
-                            <li><a href='#'>Home</a></li>
-                            <li><a href='/account'>Account</a></li>
+                            <li className=' hover:bg-slate-300'><a href='#'>Home</a></li>
+                            <li className=' hover:bg-slate-300'><a href='#'>Home</a></li>
+                            <li className=' hover:bg-slate-300'><a href='/account'>Account</a></li>
                         </div>
                     </>
                     :

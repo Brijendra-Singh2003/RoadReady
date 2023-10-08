@@ -15,14 +15,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #7c7c7c;
     background-color: white;
     cursor: pointer;
     border-radius: 10%;
 }
 
 .options:hover {
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
 }
 
 .bar {
