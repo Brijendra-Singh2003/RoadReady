@@ -95,18 +95,18 @@ a {
 @media screen  and (min-width: 650px){
 
     .svg {
-        display: none;
+        /* display: none; */
     }
 }
 
 .login{
     padding: 7px;
+    transition: all 300ms;
+    border-radius: 0.5em;
 }
 
 
 .login:hover{
     background-color: black;
     color: white;
-    border-radius: 0.5em;
-
 }

@@ -1,0 +1,30 @@
+.main {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* height: max(70vh, 100vw); */
+    width: min(100vh, 90vw);
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.card {
+    background-color: white;
+    height: 100%;
+    padding: 5vh;
+    border-radius: 2vh;
+    width: 80%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
