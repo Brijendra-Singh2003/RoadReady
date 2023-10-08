@@ -21,7 +21,7 @@ export default function Content() {
 
   return (
     <>
-      {a==0 && <Image src="/assets/fuelBG.jpg" height={1440} width={2560} className={styles.bg} />}
+      {a==0 && <Image src="/assets/FuelBG.jpg" height={1440} width={2560} className={styles.bg} />}
       {a==1 && <Image src="/assets/repairBG.jpg" height={1440} width={2560} className={styles.bg} />}
       {a==2 && <Image src="/assets/SelfHelpBG.jpeg" height={1440} width={2560} className={styles.bg} />}
       <div className={styles.wraper}>
