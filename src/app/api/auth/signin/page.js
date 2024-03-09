@@ -20,18 +20,18 @@ export default async function page() {
   return (
     <main className='signin'>
       <div className="User _card relative">
-          <h1>User Login</h1>
+          <h1>User</h1>
           <div className='imgc'>
             <Image className='limg' src="/assets/usr.png" height={400} width={400} />
           </div>
-          <Button>Login</Button>
+          <Button>Sign In</Button>
       </div>
       <div className="mechanic _card">
-          <h1>Mechanic Login</h1>
+          <h1>Mechanic</h1>
           <div className='imgc'>
             <Image className='limg' src="/assets/mech.png" height={400} width={400} />
           </div>
-          <Button>Login</Button>
+          <Button>Sign In</Button>
       </div>
     </main>
   )

@@ -1,15 +1,17 @@
 .signin {
-    width: 100vw;
-    height: 100svh;
+    width: 100%;
+    height: 93svh;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 5vh;
-    padding: 5vh 0;
+    /* padding: 5vh 0; */
 }
 
 ._card {
+    transition: all 300ms;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,6 +21,11 @@
     height: 60vh;
     width: 80vw;
     max-width: 50vh;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+._card:hover {
+    scale: 1.03;
 }
 
 ._card h1 {
@@ -28,6 +35,7 @@
 }
 
 ._card button {
+    transition: all 300ms;
     font-size: 3vh;
     color: white;
     background-color: rgb(72, 73, 71);

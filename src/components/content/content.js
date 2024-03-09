@@ -15,22 +15,25 @@ export default function Content() {
   const arr = [styles._L,styles._M, styles._R];
   const bgs = ["/assets/fuelBG.jpg", "/assets/repairBG.jpg"]
   const [a, setA] = useState(0);
+  const style = {
+    color: "black"
+  }
 
   return (
     <>
-      {a==0 && <Image src="/assets/fuelBG.jpg" height={1440} width={2560} className={styles.bg} />}
+      {a==0 && <Image src="/assets/FuelBG.jpg" height={1440} width={2560} className={styles.bg} />}
       {a==1 && <Image src="/assets/repairBG.jpg" height={1440} width={2560} className={styles.bg} />}
       {a==2 && <Image src="/assets/SelfHelpBG.jpeg" height={1440} width={2560} className={styles.bg} />}
       <div className={styles.wraper}>
-        <button onClick={()=>setA(0)} className={styles.options }>
+        <button onClick={()=>setA(0)} style={a===0 ? style : {}} className={styles.options }>
           <BsFillFuelPumpFill className={styles.icon + " " + styles.fuellogo} />
           <h2>FUEL</h2>
         </button>
-        <button onClick={()=>setA(1)} className={styles.options}>
+        <button onClick={()=>setA(1)} style={a===1 ? style : {}} className={styles.options}>
           <MdCarRepair className={styles.icon} />
           <h2>REPAIR</h2>
         </button>
-        <button onClick={()=>setA(2)} className={styles.options}>
+        <button onClick={()=>setA(2)} style={a===2 ? style : {}} className={styles.options}>
           <FaHandsHelping className={styles.icon} />
           <h2>SUPPORT</h2>
         </button>

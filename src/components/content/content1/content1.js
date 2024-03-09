@@ -10,18 +10,16 @@ export default function Content1() {
         <div className="main">
             <div className="content">
                 {
-                    myarray.map((e) => {
+                    myarray.map((e, i) => {
                         return (
-                            <>
-                                <div className="content-child">
-                                    <div className="content-child-name">{e[0]}</div>
-                                    <div className="content-child-detail">
-                                    <div className="content-child-address"><MdOutlineLocationOn />{e[1]}</div>
-                                    <div className="content-child-distance">{e[2]}</div>
-                                    <div className="content-child-time">{e[3]}</div>
-                                    </div>
+                            <div key={100+i} className="content-child">
+                                <div className="content-child-name">{e[0]}</div>
+                                <div className="content-child-detail">
+                                <div className="content-child-address"><MdOutlineLocationOn />{e[1]}</div>
+                                <div className="content-child-distance">{e[2]}</div>
+                                <div className="content-child-time">{e[3]}</div>
                                 </div>
-                            </>
+                            </div>
                         )
                     })
                 }
